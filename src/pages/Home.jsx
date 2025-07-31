@@ -48,8 +48,8 @@ const langchange = (e) => {
 
 return (
     <>
-        <Starbg />
-        <div className="relative z-10">
+    
+        <div className="min-h-screen bg-gradient-to-br from-purple-400 via-blue-600 to-indigo-900 p-6 flex flex-col items-center">
             <div className=" 
                         min-h-screen 
                         overflow-hidden
@@ -59,14 +59,14 @@ return (
                         items-center 
                         ">
                 <h1 className="bg-gradient-to-r
-                           from-pink-500 via-red-500 to-yellow-500 
+                        from-yellow-300 via-rose-500 to-green-500
                            bg-clip-text 
                            text-transparent 
                            font-extrabold 
                            text-5xl 
                            py-5
                            mb-6">
-                    LingoTongue!!
+                    SayItAll !!
                 </h1>
                 {/* translator section  */}
                 <div className="bg-blue-950/60
